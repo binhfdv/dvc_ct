@@ -1,0 +1,5 @@
+outs:
+- md5: fe8973d350b99e38fd1ff8be570fac53.dir
+  size: 9090
+  nfiles: 2
+  path: prepared

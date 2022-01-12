@@ -2,7 +2,8 @@ import joblib
 from pathlib import Path
 import pandas as pd
 
-from sklearn.ensemble import RandomForestClassifier
+# from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
 
 repo_path = Path(__file__).parent.parent
 training_set = pd.read_csv(repo_path / 'data/prepared/training_set.csv')

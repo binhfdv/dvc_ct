@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     repo_path = Path(__file__).parent.parent
 
-    training_set = pd.read_csv(repo_path / 'data/raw/titanic.csv')
+    training_set = pd.read_csv(repo_path / 'data/raw/big_titanic.csv')
     training_set, val_set = train_test_split(training_set, test_size=0.2, random_state=42)
     # test_set = pd.read_csv(repo_path / 'data/raw/titanic_test.csv')
 
